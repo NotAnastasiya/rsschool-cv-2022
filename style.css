@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vh;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+body {
+    background-color: #FF00FF; 
+}
+
+header {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2vh;
+}
+
+nav li { 
+    width: 15%;
+    font-weight: bold;
+    text-align: center; 
+    color: #000000;
+    border: 5px solid #FFFFFF;  
+}
+
+img {
+    line-height: 0;
+    background: none;
+}
+
+#head {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 10vh; 
+}
+
+.photo {
+    width: 274px;
+    padding: 7vh; 
+    text-align: center;
+    background-color: #FFFF00;
+}
+
+.text {
+    margin-left: 40px;
+}
+
+h1 {
+    margin-bottom: 3vh;
+    font-size: 13vh;
+    line-height: 1;
+    color: #FFFF00;
+}
+
+#contacts {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    text-align: center;
+    background-color: #d3d3d3;   
+}
+
+#contacts li {
+    font-size: 2.5vh;
+    color: #000000;
+}
+
+h2 {
+    font-size: 9vh;
+    color: #FFFF00;
+}
+
+.information {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15vh;  
+}
+
+.button {
+    width: 25%;
+    margin: 5vh 0;
+    border: 5px solid #FFFFFF;
+    font-weight: bold;  
+    text-align: center; 
+}
+
+#settings-block {
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#settings-content {
+    box-sizing: border-box;
+    height: 92%;
+    padding: 15vh;  
+}
+
+footer {
+    width: 100%;
+    height: 8%;
+    padding-top: 7px;
+    text-align: center;
+    background-color: #d3d3d3; 
+}
+
+pre {
+    color: #000000;
+}
+
+pre a {
+    color: #000000;
+}
+
+.link {
+    font-weight: bold;
+}
+
+#code {
+    margin-top: 3vh;
+    font-size: 2vh;
+    color: #FFFFFF;
+}
+
+#projects {
+    padding: 5vh 15vh 5vh 15vh; 
+}
